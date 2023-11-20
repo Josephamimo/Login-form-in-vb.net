@@ -6,7 +6,7 @@ Module sqlcon
     Public result1 As Integer
     Public schlname As String
 
-    'START
+    'START by creating your own database
     Public dbPath As String = "server= localhost;Port=3306; database=librarymngt; username= root; password=sms"
 
     Public da As MySqlDataAdapter
